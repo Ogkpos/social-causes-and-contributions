@@ -25,6 +25,6 @@ export const contributeToACause = async (req: Request, res: Response) => {
     });
     res.status(201).json(contribution);
   } catch (error) {
-    res.status(500).json({ error: "Failed to contributr" });
+    res.status(500).json({ error: "Failed to contribute" });
   }
 };
